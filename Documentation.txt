@@ -59,7 +59,7 @@ Function: Uses answer_question to handle inputs.
 Inputs/Outputs: Specifies text input and text output.
 Title/Description: Adds a title and description to the interface.
 Launching Interface: Launches the Gradio interface.
-Summary
+Summary:
 The overall strategy involves integrating multiple components to create a chatbot that can answer questions based on the content of documents retrieved from both a pre-defined dataset and a WordPress site. The approach leverages:
 
 Document Loading: Fetching and processing documents from different sources.
@@ -67,5 +67,6 @@ Text Splitting: Breaking documents into manageable chunks.
 Embedding: Using pre-trained models to convert text into embeddings.
 Vector Storage and Retrieval: Storing embeddings in a FAISS vector store and retrieving similar documents based on queries.
 Question Answering: Using a refined question-answering pipeline to provide answers based on the context retrieved.
-Project Report
+
+Project Report:
 As the problem mentioned, I executed all of the above steps. If some paid APIs were used here, the bot would be more powerful in its knowledge base, as paid APIs generally provide a more comprehensive and robust dataset compared to free APIs.
